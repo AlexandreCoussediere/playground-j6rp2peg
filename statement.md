@@ -23,3 +23,19 @@ In many languages, writing a simple message requires several lines of boilerplat
 ```python
 # The classic first step
 print("Hello, World!")
+### 3. Core Concepts
+
+#### A. Variables and Types
+Python uses **dynamic typing**, which means you don't need to declare the type of a variable when you create one. The interpreter automatically detects if it's text, a number, or a logic value.
+
+
+
+```python
+# Assignment: variable_name = value
+name = "Alex"          # String (text)
+age = 30               # Integer (whole number)
+price = 19.99          # Float (decimal number)
+is_learning = True     # Boolean (True/False)
+
+# You can even change the type of a variable later
+age = "Thirty"         # Now age is a String
