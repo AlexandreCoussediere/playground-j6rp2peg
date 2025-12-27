@@ -8,6 +8,8 @@ Python is a powerful, versatile, and beginner-friendly programming language. Whe
 
 Created by **Guido van Rossum** and released in 1991, Python is an interpreted, high-level, and general-purpose language. It was designed with one core philosophy in mind: **code readability**.
 
+
+
 ### Key Advantages:
 * **Simple Syntax:** Python’s syntax resembles the English language, making it easy to learn and write.
 * **Interpreted:** Code is executed line-by-line, which makes debugging much faster.
@@ -23,9 +25,13 @@ In many languages, writing a simple message requires several lines of boilerplat
 ```python
 # The classic first step
 print("Hello, World!")
-### 3. Core Concepts
+```
 
-#### A. Variables and Types
+---
+
+## 3. Core Concepts
+
+### A. Variables and Types
 Python uses **dynamic typing**, which means you don't need to declare the type of a variable when you create one. The interpreter automatically detects if it's text, a number, or a logic value.
 
 
@@ -39,3 +45,25 @@ is_learning = True     # Boolean (True/False)
 
 # You can even change the type of a variable later
 age = "Thirty"         # Now age is a String
+```
+
+### B. Indentation
+In Python, indentation is not just for making the code look "pretty"—it is a **requirement**. While other languages (like C++ or Java) use curly braces `{}` to group code, Python uses **spaces**.
+
+[Image comparing Python indentation with C-style curly braces]
+
+```python
+# Everything indented under the 'if' belongs to that block
+if is_learning:
+    print("Keep going!")
+    print("You are doing great.")
+else:
+    print("Start learning today!")
+
+# This line is not indented, so it runs regardless of the 'if'
+print("End of program.")
+```
+
+---
+
+> **Note:** Always remember that in Python, spaces at the beginning of a line are part of the logic!
