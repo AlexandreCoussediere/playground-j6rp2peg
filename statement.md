@@ -48,7 +48,7 @@ age = "Thirty"         # Now age is a String
 ```
 
 ### B. Indentation
-In Python, indentation is not just for making the code look "pretty"—it is a **requirement**. While other languages (like C++ or Java) use curly braces `{}` to group code, Python uses **spaces**.
+In Python, indentation is not just for making the code look "pretty" it is a **requirement**. While other languages (like C++ or Java) use curly braces `{}` to group code, Python uses **spaces**.
 
 [Image comparing Python indentation with C-style curly braces]
 
